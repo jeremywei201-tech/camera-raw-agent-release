@@ -1,0 +1,26 @@
+{
+  "id": "camera-raw-agent",
+  "name": "Camera Raw Agent",
+  "version": "0.1.0",
+  "manifestVersion": 5,
+  "main": "dist/index.js",
+  "host": {
+    "app": "PS",
+    "minVersion": "25.0"
+  },
+  "entrypoints": [
+    {
+      "type": "panel",
+      "id": "craPanel",
+      "label": { "default": "Camera Raw Agent" },
+      "minimumSize": { "width": 300, "height": 400 },
+      "defaultSize": { "width": 360, "height": 600 }
+    }
+  ],
+  "requiredPermissions": {
+    "localFileSystem": "request",
+    "network": {
+      "domains": ["https://api.anthropic.com"]
+    }
+  }
+}
