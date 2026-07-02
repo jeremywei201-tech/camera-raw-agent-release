@@ -43,12 +43,13 @@ A Photoshop UXP plugin — multimodal LLM retouch assistant for photographers, b
 **Before**:
 ![Basic](./test/basic.jpg)
 
-**Input**: Adjust the warm yellow in the highlight to a soft orange red, keep the overall style unchanged 
+**Input**: Adjust the warm yellow in the highlight to a soft orange red, keep the overall style unchanged. 
 
 **Retouch**:
 ![Retouched1](./test/after1.jpg)
 
-**Input**: The dark cool color in the ridge is getting a little warmer, restore it
+**Input**: The dark cool color in the ridge is getting a little warmer, restore it.
+
 **Retouch**:
 ![Retouched2](./test/after2.jpg)
 
