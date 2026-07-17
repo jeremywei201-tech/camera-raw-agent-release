@@ -30,6 +30,9 @@ A Photoshop UXP plugin — multimodal LLM retouch assistant for photographers, b
 
 
 ## Examples
+
+### Screenshot
+
 **Before**:
 ![Basic](./test/basic.jpg)
 
@@ -43,3 +46,6 @@ A Photoshop UXP plugin — multimodal LLM retouch assistant for photographers, b
 **Retouch**:
 ![Retouched2](./test/after2.jpg)
 
+### Video
+
+![Walkthrough](./test/camera-raw-agent-examples.gif)
